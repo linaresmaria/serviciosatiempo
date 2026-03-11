@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Servicios Generales A Tiempo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">SERVICIOS A TIEMPO</div>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#galeria">Trabajos</a>
+      <a href="#empresa">Empresa</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <h1>Soluciones Profesionales Para Tu Hogar</h1>
+    <h2>
+      <p>Reparaciones, mantenimiento y montaje con calidad profesional</p>
+    </h2>
+    <a href="#contacto" class="boton">Solicitar servicio</a>
+  </section>
+
+  <section id="servicios">
+    <h2>Nuestros Servicios</h2>
+    <div class="servicios">
+      <div class="card">
+        <h3>Reparaciones</h3>
+        <p>Arreglos de puertas, cerraduras y reparaciones del hogar.</p>
+      </div>
+      <div class="card">
+        <h3>Montaje de muebles</h3>
+        <p>Instalación profesional de muebles y estanterías.</p>
+      </div>
+      <div class="card">
+        <h3>Pintura</h3>
+        <p>Pintura de interiores y arreglos de paredes.</p>
+      </div>
+      <div class="card">
+        <h3>Mantenimiento</h3>
+        <p>Mantenimiento general para hogares y negocios.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeria">
+    <h2>Trabajos Realizados</h2>
+    <div class="galeria">
+      <img src="imagen/atiempo1.jpg" alt="Trabajo 1">
+      <img src="imagen/atiempo2.jpg" alt="Trabajo 2">
+      <img src="imagen/atiempo3.jpg" alt="Trabajo 3">
+    </div>
+  </section>
+
+  <section id="empresa">
+    <h2>Sobre Nuestra Empresa</h2>
+    <p>
+      Somos una empresa dedicada a brindar soluciones rápidas
+      y profesionales para el hogar y negocios. Nuestro equipo
+      tiene experiencia en reparaciones, mantenimiento y montaje
+      de muebles con altos estándares de calidad.
+    </p>
+  </section>
+
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+
+    <!-- FORMULARIO CORRECTO PARA NETLIFY -->
+    <form name="contacto" method="POST" data-netlify="true" action="success.html">
+      <input type="hidden" name="form-name" value="contacto">
+
+      <input type="text" name="nombre" placeholder="Nombre" required>
+      <input type="email" name="email" placeholder="Correo" required>
+      <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+
+      <button type="submit">Enviar mensaje</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2026 Servicios Generales A Tiempo</p>
+  </footer>
+
+  <a href="https://wa.me/670933861" class="whatsapp">WhatsApp</a>
+
+</body>
+</html>
